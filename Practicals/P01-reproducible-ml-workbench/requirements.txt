@@ -1,0 +1,6 @@
+# Reference package set used by the source practical.
+# The repository-level environment/lock file should remain the authoritative course setup.
+numpy==2.5.1
+pandas==2.3.3
+scikit-learn==1.9.0
+matplotlib==3.11.1

@@ -1,0 +1,24 @@
+# Python virtual environments
+.venv/
+venv/
+
+# Python runtime
+__pycache__/
+*.py[cod]
+
+# Jupyter
+.ipynb_checkpoints/
+
+# Test/tool caches
+.pytest_cache/
+.mypy_cache/
+.ruff_cache/
+
+# OS/editor noise
+.DS_Store
+Thumbs.db
+.vscode/
+.idea/
+
+# P01 generated learning artifacts
+work/

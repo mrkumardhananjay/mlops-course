@@ -1,0 +1,20 @@
+# Virtual environments
+.venv/
+venv/
+
+# Python runtime
+__pycache__/
+*.py[cod]
+
+# Jupyter
+.ipynb_checkpoints/
+
+# P04 generated working outputs
+work/
+model.joblib
+
+# OS/editor
+.DS_Store
+Thumbs.db
+.vscode/
+.idea/

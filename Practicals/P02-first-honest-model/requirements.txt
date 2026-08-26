@@ -1,0 +1,5 @@
+# P02 direct Python dependencies.
+# The repository-level course environment remains authoritative.
+numpy==2.5.1
+pandas==2.3.3
+scikit-learn==1.9.0

@@ -5,6 +5,16 @@
 SCSE3040 Machine Learning Operations  
 Bennett University | Session 2026-27
 
+| Item | Detail |
+|---|---|
+| Follows lectures | L09 |
+| Course Outcome | CO3 |
+| Duration | 120 minutes |
+| Approx. memory | 300 MB |
+| GPU required | No |
+| Extra software | The course Python environment |
+| Assessment | 10 marks |
+
 ## Practical goal
 
 In P01-P03, the machine-learning workflow still depended heavily on notebook state. In this practical, that workflow is refactored into an importable Python package.

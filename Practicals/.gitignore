@@ -1,0 +1,9 @@
+# Generated when a student runs a practical. Never committed.
+mlruns/
+mlflow.db
+__pycache__/
+*.pyc
+.ipynb_checkpoints/
+.venv/
+*.joblib
+*.skops

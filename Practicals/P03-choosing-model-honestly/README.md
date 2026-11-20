@@ -6,7 +6,7 @@
 
 | Item | Detail |
 |---|---|
-| Follows lectures | L04-L05 |
+| Follows lectures | L04 |
 | Course Outcome | CO2 |
 | Duration | 120 minutes |
 | Approx. memory | 400 MB |

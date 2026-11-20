@@ -1,0 +1,33 @@
+# The robot that checks your work.
+# Copy this file to .github/workflows/ci.yml in your own repository.
+#
+# Note the key below is written on:  Under YAML 1.1 that parses as the
+# boolean True, not the string "on". GitHub reads the file itself, so it
+# works; a YAML library you point at this file will show True as the key.
+name: ci
+
+on:
+  push:
+    branches: [main]
+  pull_request:
+
+jobs:
+  test:
+    runs-on: ubuntu-latest
+    steps:
+      - uses: actions/checkout@v4
+      - uses: actions/setup-python@v5
+        with:
+          python-version: "3.12"
+      - name: Install pinned dependencies
+        run: python -m pip install -r requirements.txt
+      - name: Run the tests
+        run: python -m pytest -q
+
+  build:
+    needs: test          # build never starts if test fails
+    runs-on: ubuntu-latest
+    steps:
+      - uses: actions/checkout@v4
+      - name: Confirm the gate held
+        run: echo "tests passed, so this stage was allowed to run"

@@ -1,2 +1,2 @@
-delivery time model
-MAE on held out orders: 1.92 minutes
+rows: 600
+mae_minutes: 1.925
